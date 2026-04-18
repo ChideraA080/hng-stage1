@@ -27,22 +27,6 @@ Through this project, I implemented a complete deployment workflow from developm
 - PM2 (Process Manager)
 - Git & GitHub
 
-
-
-## API Authentication
-
-All endpoints are protected using an API key:
-
-Header required:
-x-api-key: hng-stage1-secret
-
-Requests without this key return:
-```json
-{
-  "message": "Unauthorized"
-}
-```
-
 ## API Endpoints
 
 All endpoints return:
@@ -52,8 +36,7 @@ All endpoints return:
 - Response time under 500ms
 
 ### GET /
-
-```json
+```json id="root1"
 {
   "message": "API is running"
 }
@@ -210,20 +193,20 @@ GitHub: https://github.com/ChideraA080/hng-stage1
 
 ## Screenshots
 
-### API Running with Live Server URL Authorized
-![ API Running](https://github.com/ChideraA080/hng-stage1/blob/main/Hng%20_Stage1%20Screenshots/IMG_20260418_230700%20(1).jpg)
+### API Running 
+![ API Running](https://github.com/ChideraA080/hng-stage1/blob/main/Hng%20_Stage1%20Screenshots/API%20Running.png)
 
-### API Unauthorized
-![API Unauthorized](https://github.com/ChideraA080/hng-stage1/blob/main/Hng%20_Stage1%20Screenshots/Unauthorized%20.png)
+### API Running/Me
+![API Running/me](https://github.com/ChideraA080/hng-stage1/blob/main/Hng%20_Stage1%20Screenshots/API%20Running%20Me.png)
+
+### API Running/health
+![API Running/health](https://github.com/ChideraA080/hng-stage1/blob/main/Hng%20_Stage1%20Screenshots/API%20Running%20Health.png)
+
+### PM2 Status
+![PM2 Status](https://github.com/ChideraA080/hng-stage1/blob/main/Hng%20_Stage1%20Screenshots/PM2%20status.jpg)
 
 ### PM2 Process
-![PM2 Running](https://github.com/ChideraA080/hng-stage1/blob/main/Hng%20_Stage1%20Screenshots/IMG-20260418-WA0027.jpeg)
-
-### PM2 Deamonized
-![PM2 deamonized](https://github.com/ChideraA080/hng-stage1/blob/main/Hng%20_Stage1%20Screenshots/IMG-20260418-WA0030.jpg)
-
-### PM2 Saved
-![PM2 Save](https://github.com/ChideraA080/hng-stage1/blob/main/Hng%20_Stage1%20Screenshots/IMG-20260418-WA0026.jpg)
+![PM2 Process](https://github.com/ChideraA080/hng-stage1/blob/main/Hng%20_Stage1%20Screenshots/IMG-20260418-WA0027.jpeg)
 
 ### Nginx Config Success 
 ![Nginx Config Running](https://github.com/ChideraA080/hng-stage1/blob/main/Hng%20_Stage1%20Screenshots/IMG-20260418-WA0032.jpg)
