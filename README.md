@@ -1,10 +1,12 @@
-# Stage 1 – Personal API Deployment (DevOps Track)
+# Hng-Stage 1 – Personal API Deployment (DevOps Track)
 
 ## Project Overview
 
-This project is a simple REST API built using Node.js and Express and deployed on a Linux VPS (Ubuntu).
+This project is a simple REST API built using Node.js and Express and deployed on a Linux VPS (Ubuntu) as part of a DevOps training task.
 
-The objective of this task is to demonstrate practical DevOps skills, including building a backend service, deploying it to a server, configuring a reverse proxy, and ensuring the service runs reliably in a production-like environment.
+The objective was to demonstrate practical DevOps skills by building a backend service, testing it locally, and deploying it to a production-like environment. This included configuring Nginx as a reverse proxy, managing the application process with PM2, and ensuring the service remains reliably available.
+
+Through this project, I implemented a complete deployment workflow — from development to live deployment — while ensuring proper API structure, performance, and system reliability.
 
 ## What I Implemented
 
