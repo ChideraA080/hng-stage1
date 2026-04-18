@@ -27,11 +27,28 @@ Through this project, I implemented a complete deployment workflow from developm
 - PM2 (Process Manager)
 - Git & GitHub
 
+
+
+## API Authentication
+
+All endpoints are protected using an API key:
+
+Header required:
+x-api-key: hng-stage1-secret
+
+Requests without this key return:
+```json
+{
+  "message": "Unauthorized"
+}
+```
+
 ## API Endpoints
 
 All endpoints return:
+
 - Content-Type: application/json
-- HTTP Status: 200
+- HTTP Status: 200 (when authorized)
 - Response time under 500ms
 
 ### GET /
@@ -42,33 +59,29 @@ All endpoints return:
 }
 ```
 GET /health
-
 ```
 {
-  "message": "healthy"
+  "message": "healthy",
+  "cpu": "10%",
+  "memory": "64MB"
 }
 ```
+
 ### GET /me
 
 ```
 {
   "name": "Chidera Pamela Alaeto",
   "email": "chideraalaeto92@gmail.com",
-  "github": "https://github.com/ChideraA080"
+  "github": "https://github.com/ChideraA080//hng-stage1"
 }
 ```
 ### Live Deployment
 
 Base URL:
 ```
-http://YOUR-SERVER-IP
-```
-My Server IP
-```
 http://18.234.50.53
 ```
-
-
 
 ### Project Execution (Step-by-Step)
 
@@ -107,9 +120,10 @@ sudo apt update
 sudo apt install nodejs npm -y
 ```
 4. Application Deployment
-Cloned repository
-Installed dependencies
-Tested app
+
+- Cloned repository from GitHub
+- Installed dependencies
+- Verified application runs on port 3000
 
 Commands:
 ```
