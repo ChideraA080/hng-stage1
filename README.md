@@ -63,6 +63,12 @@ Base URL:
 ```
 http://YOUR-SERVER-IP
 ```
+Server IP
+```
+http://18.234.50.53
+```
+
+
 
 ### Project Execution (Step-by-Step)
 
