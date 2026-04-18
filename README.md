@@ -210,18 +210,12 @@ GitHub: https://github.com/ChideraA080
 
 ## Screenshots
 
-### API Running
-![API Running](https://github.com/ChideraA080/hng-stage1/blob/main/Hng%20_Stage1/Live%20URL%20hng%202.png)
-
-### API Health
-![ Health Status](https://github.com/ChideraA080/hng-stage1/blob/main/Hng%20_Stage1/Live%20URL%20hng%203.png)
-
-### Live Server URL
-![ Server Running](https://github.com/ChideraA080/hng-stage1/blob/main/Hng%20_Stage1/Live%20URL%20hng.png)
+### API Running with Live Server URL
+![ API Running](https://github.com/ChideraA080/hng-stage1/blob/main/Hng%20_Stage1/Live%20URL%20hng.png)
 
 
 ### PM2 Process
-![PM2 Running](https://github.com/ChideraA080/hng-stage1/blob/main/Hng%20_Stage1/IMG-20260418-WA0027.jpeg)
+![PM2 Running](https://github.com/ChideraA080/hng-stage1/blob/main/Hng%20_Stage1/IMG-20260418-WA0027.jpeg
 
 ### PM2 Deamonized
 ![PM2 deamonized](https://github.com/ChideraA080/hng-stage1/blob/main/Hng%20_Stage1/IMG-20260418-WA0030.jpg)
@@ -232,8 +226,7 @@ GitHub: https://github.com/ChideraA080
 ### Nginx Config Success 
 ![Nginx Config Running](https://github.com/ChideraA080/hng-stage1/blob/main/Hng%20_Stage1/IMG-20260418-WA0032.jpg)
 
-### Port Running Locally 
-![Port running Locally ](https://github.com/ChideraA080/hng-stage1/blob/main/Hng%20_Stage1/IMG-20260418-WA0034.jpg)
+### Port Running Lo
 
 ## Status
 
