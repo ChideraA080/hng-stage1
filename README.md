@@ -6,7 +6,7 @@ This project is a simple REST API built using Node.js and Express and deployed o
 
 The objective was to demonstrate practical DevOps skills by building a backend service, testing it locally, and deploying it to a production-like environment. This included configuring Nginx as a reverse proxy, managing the application process with PM2, and ensuring the service remains reliably available.
 
-Through this project, I implemented a complete deployment workflow — from development to live deployment — while ensuring proper API structure, performance, and system reliability.
+Through this project, I implemented a complete deployment workflow from development to live deployment while ensuring proper API structure, performance, and system reliability.
 
 ## What I Implemented
 
@@ -63,7 +63,7 @@ Base URL:
 ```
 http://YOUR-SERVER-IP
 ```
-Server IP
+My Server IP
 ```
 http://18.234.50.53
 ```
@@ -73,10 +73,11 @@ http://18.234.50.53
 ### Project Execution (Step-by-Step)
 
 1. Local Development
-- Initialized Node.js project
-- Installed Express
-- Created API endpoints
-- Tested locally
+
+- I initialized a Node.js project to set up the foundation of the API  
+- I installed Express to handle routing and build the endpoints  
+- I created the required API endpoints and ensured each returned the correct JSON response with a 200 status code  
+- I tested the API locally using the browser and curl to confirm everything was working as expected before deployment  
 
 Commands:
 ```
@@ -192,6 +193,33 @@ Name: Chidera Pamela Alaeto
 Email: chideraalaeto92@gmail.com
 
 GitHub: https://github.com/ChideraA080
+
+## Screenshots
+
+### API Running
+![API Running](https://github.com/ChideraA080/hng-stage1/blob/main/Hng%20_Stage1/Live%20URL%20hng%202.png)
+
+### API Health
+![ Health Status](https://github.com/ChideraA080/hng-stage1/blob/main/Hng%20_Stage1/Live%20URL%20hng%203.png)
+
+### Live Server URL
+![ Server Running](https://github.com/ChideraA080/hng-stage1/blob/main/Hng%20_Stage1/Live%20URL%20hng.png)
+
+
+### PM2 Process
+![PM2 Running](https://github.com/ChideraA080/hng-stage1/blob/main/Hng%20_Stage1/IMG-20260418-WA0027.jpeg)
+
+### PM2 Deamonized
+![PM2 deamonized](https://github.com/ChideraA080/hng-stage1/blob/main/Hng%20_Stage1/IMG-20260418-WA0030.jpg)
+
+### PM2 Success
+![PM2 Success](https://github.com/ChideraA080/hng-stage1/blob/main/Hng%20_Stage1/IMG-20260418-WA0026.jpg)
+
+### Nginx Config Success 
+![Nginx Config Running](https://github.com/ChideraA080/hng-stage1/blob/main/Hng%20_Stage1/IMG-20260418-WA0032.jpg)
+
+### Port Running Locally 
+![Port running Locally ](https://github.com/ChideraA080/hng-stage1/blob/main/Hng%20_Stage1/IMG-20260418-WA0034.jpg)
 
 ## Status
 
