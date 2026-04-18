@@ -206,27 +206,27 @@ Name: Chidera Pamela Alaeto
 
 Email: chideraalaeto92@gmail.com
 
-GitHub: https://github.com/ChideraA080
+GitHub: https://github.com/ChideraA080/hng-stage1
 
 ## Screenshots
 
-### API Running with Live Server URL
-![ API Running](https://github.com/ChideraA080/hng-stage1/blob/main/Hng%20_Stage1/Live%20URL%20hng.png)
+### API Running with Live Server URL Authorized
+![ API Running](https://github.com/ChideraA080/hng-stage1/blob/main/Hng%20_Stage1%20Screenshots/IMG_20260418_230700%20(1).jpg)
 
+### API Unauthorized
+![API Unauthorized](https://github.com/ChideraA080/hng-stage1/blob/main/Hng%20_Stage1%20Screenshots/Unauthorized%20.png)
 
 ### PM2 Process
-![PM2 Running](https://github.com/ChideraA080/hng-stage1/blob/main/Hng%20_Stage1/IMG-20260418-WA0027.jpeg
+![PM2 Running](https://github.com/ChideraA080/hng-stage1/blob/main/Hng%20_Stage1%20Screenshots/IMG-20260418-WA0027.jpeg)
 
 ### PM2 Deamonized
-![PM2 deamonized](https://github.com/ChideraA080/hng-stage1/blob/main/Hng%20_Stage1/IMG-20260418-WA0030.jpg)
+![PM2 deamonized](https://github.com/ChideraA080/hng-stage1/blob/main/Hng%20_Stage1%20Screenshots/IMG-20260418-WA0030.jpg)
 
-### PM2 Success
-![PM2 Success](https://github.com/ChideraA080/hng-stage1/blob/main/Hng%20_Stage1/IMG-20260418-WA0026.jpg)
+### PM2 Saved
+![PM2 Save](https://github.com/ChideraA080/hng-stage1/blob/main/Hng%20_Stage1%20Screenshots/IMG-20260418-WA0026.jpg)
 
 ### Nginx Config Success 
-![Nginx Config Running](https://github.com/ChideraA080/hng-stage1/blob/main/Hng%20_Stage1/IMG-20260418-WA0032.jpg)
-
-### Port Running Lo
+![Nginx Config Running](https://github.com/ChideraA080/hng-stage1/blob/main/Hng%20_Stage1%20Screenshots/IMG-20260418-WA0032.jpg)
 
 ## Status
 
