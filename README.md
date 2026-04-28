@@ -41,6 +41,9 @@ All endpoints return:
   "message": "API is running"
 }
 ```
+### Confirmation API Running GET /
+![ API Running](https://github.com/ChideraA080/hng-stage1/blob/main/Hng%20_Stage1%20Screenshots/API%20Running.png)
+
 GET /health
 ```
 {
@@ -49,6 +52,8 @@ GET /health
   "memory": "64MB"
 }
 ```
+### API Running GET/health
+![API Running/health](https://github.com/ChideraA080/hng-stage1/blob/main/Hng%20_Stage1%20Screenshots/API%20Running%20Health.png)
 
 ### GET /me
 
@@ -59,6 +64,10 @@ GET /health
   "github": "https://github.com/ChideraA080//hng-stage1"
 }
 ```
+### Confirmation API Running GET/Me
+![API Running/me](https://github.com/ChideraA080/hng-stage1/blob/main/Hng%20_Stage1%20Screenshots/API%20Running%20Me.png)
+
+
 ### Live Deployment
 
 Base URL:
@@ -192,15 +201,6 @@ Email: chideraalaeto92@gmail.com
 GitHub: https://github.com/ChideraA080/hng-stage1
 
 ## Screenshots
-
-### API Running 
-![ API Running](https://github.com/ChideraA080/hng-stage1/blob/main/Hng%20_Stage1%20Screenshots/API%20Running.png)
-
-### API Running/Me
-![API Running/me](https://github.com/ChideraA080/hng-stage1/blob/main/Hng%20_Stage1%20Screenshots/API%20Running%20Me.png)
-
-### API Running/health
-![API Running/health](https://github.com/ChideraA080/hng-stage1/blob/main/Hng%20_Stage1%20Screenshots/API%20Running%20Health.png)
 
 ### PM2 Status
 ![PM2 Status](https://github.com/ChideraA080/hng-stage1/blob/main/Hng%20_Stage1%20Screenshots/PM2%20status.jpg)
