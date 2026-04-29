@@ -1,4 +1,4 @@
-# Hng-Stage 1 – Personal API Deployment (DevOps Track)
+# Hng-Stage 1 – Personal API Deployment 
 
 ## Project Overview
 
@@ -192,13 +192,22 @@ Solution:
 - Improved my ability to structure API endpoints correctly and ensure consistent JSON responses with proper HTTP status codes  
 - Developed a better understanding of production deployment workflows, including testing, debugging, and ensuring reliability of a live service  
 
-## Author
+## Cost Management & Resource Cleanup
 
-Name: Chidera Pamela Alaeto
+To avoid unnecessary cloud charges, the AWS EC2 Ubuntu Linux server used for this project was terminated after successful implementation and validation of all requirements.
 
-Email: chideraalaeto92@gmail.com
+This was done after confirming that:
 
-GitHub: https://github.com/ChideraA080/hng-stage1
+- The REST API was correctly built using Node.js and Express
+- All required API endpoints were working as expected
+- Nginx was properly configured as a reverse proxy and serving requests on port 80
+- The application was successfully deployed and accessible on the Ubuntu VPS
+- PM2 was correctly managing the application process and ensuring uptime
+- The system was stable and met all deployment requirements
+
+The instance was intentionally shut down to prevent ongoing AWS billing, as this project does not require continuous uptime.
+
+Note: The live environment is no longer active. If the API endpoint or server URL is accessed, it may not resolve because the EC2 instance has been terminated after successful testing and submission readiness.
 
 ## Screenshots
 
@@ -222,5 +231,13 @@ PM2 running
 Deployment complete
 
 Production ready
+
+## Author
+
+Name: Chidera Pamela Alaeto
+
+Email: chideraalaeto92@gmail.com
+
+GitHub: https://github.com/ChideraA080/hng-stage1
 
 
