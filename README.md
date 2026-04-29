@@ -8,6 +8,27 @@ The objective was to demonstrate practical DevOps skills by building a backend s
 
 Through this project, I implemented a complete deployment workflow from development to live deployment while ensuring proper API structure, performance, and system reliability.
 
+## Architecture Diagram
+
+![ Architecture Diagram](https://github.com/ChideraA080/hng-stage1/blob/main/Hng%20_Stage1%20Screenshots/Stage1%20Architceture%20Diagram.png)
+
+This architecture diagram illustrates how the REST API request flows from the user to the backend server in the deployed environment.
+This architecture diagram illustrates how the REST API request flows from the user to the backend server in the deployed environment.
+
+When a user accesses the application using the public IP address (http://18.234.50.53), the request first reaches the server via HTTP on port 80. This request is handled by Nginx, which acts as a reverse proxy and entry point to the system.
+
+Nginx is responsible for receiving all incoming traffic and forwarding it to the Node.js application running internally on port 3000. This ensures that the backend service is not directly exposed to the internet, improving both security and control over traffic flow.
+
+Once the request is forwarded, the Node.js and Express application processes it by matching the appropriate endpoint (/, /health, /me) and returning a structured JSON response.
+
+The application process is managed by PM2, which ensures the service remains running continuously, restarts automatically if it crashes, and maintains high availability even after server reboots.
+
+Finally, the response travels back through the same path - from Node.js → Nginx → user - completing the request-response cycle.
+
+Flow Summary
+
+User → Public IP (HTTP :80) → Nginx Reverse Proxy → Node.js App (Port 3000) → Response returned to user
+
 ## What I Implemented
 
 - Built a REST API with three required endpoints
